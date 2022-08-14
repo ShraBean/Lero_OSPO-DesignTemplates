@@ -1,0 +1,14 @@
+$color-p:#191D63;
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-lero{
+    color:white;
+    background: linear-gradient(46.23deg, #0F5FB2 0.93%, #B40C60 99.77%);
+    border:none;
+    transition: all 100ms ease-out;
+    &:hover{
+        background: #001E62;
+        color: white;
+    }
+}

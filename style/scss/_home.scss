@@ -1,0 +1,28 @@
+.slide{
+.carrousel-item{
+    #discription{
+        position: absolute;
+        bottom: 20px;
+        left:80px;
+        color: white;
+    }
+}
+}
+.colored{
+    padding: 2rem 0;
+    background: linear-gradient(46.23deg, #0F5FB2 0.93%, #B40C60 99.77%);
+    
+}
+@mixin make-container($padding-x: $container-padding-x) {
+    width: 100%;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.custom-container{
+    width: 100%;
+   padding: 0 160px ;
+   margin-left: auto;
+   margin-right: auto;
+}
