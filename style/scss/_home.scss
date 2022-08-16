@@ -11,6 +11,9 @@
 .colored{
     padding: 2rem 0;
     background: linear-gradient(46.23deg, #0F5FB2 0.93%, #B40C60 99.77%);
+    p{
+        text-align: justify;
+    }
     
 }
 @mixin make-container($padding-x: $container-padding-x) {
@@ -25,4 +28,9 @@
    padding: 0 160px ;
    margin-left: auto;
    margin-right: auto;
+}
+@media only screen and (max-width: 768px){
+    .custom-container{
+       padding: 0 24px ;
+    }  
 }
